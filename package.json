@@ -1,0 +1,11 @@
+{
+  "name": "ai-news-dashboard",
+  "version": "1.0.0",
+  "description": "A minimal AI news aggregator built with MCP browser tools.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build_dashboard_no_playwright.js",
+    "start": "npm run build"
+  },
+  "dependencies": {}
+}
